@@ -6,7 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 const cors = require("cors");
-const initialize = require('./models');
+// const initialize = require('./models');
 var app = express();
 
 // view engine setup
