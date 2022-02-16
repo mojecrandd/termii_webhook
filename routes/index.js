@@ -5,7 +5,7 @@ router.use(express.json());
 router.use(bodyParser.urlencoded({ extended: true }));
 router.use(bodyParser.json());
 /* GET home page. */
-router.post('/', function(req, res, next) {
+router.post('/sms-hook', function(req, res, next) {
   // res.send({ title: 'Express' })
   // console.log(res.json({requestBody: req.body}))
   console.log(req.body)
