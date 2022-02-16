@@ -1,0 +1,8 @@
+yarn-error.log
+/.idea
+/.vscode
+yarn.lock
+node_modules
+package-lock.json
+build
+db.config.json
